@@ -1,1 +1,8 @@
-
+well come to the instructure before doing homology modelling.
+homology modelling is a process which is predict protein unknown structure by using similar proerties having template structure which is already predicted by experimental and insilico methods.
+before using script , first go and do "BLASTP" with your query protein sequence.
+based on the query coverage (>70) , sequence percentage identity (>40) choose template model and note PDB ID .
+In our script we don't need to download PDB . it will automatically download by script on the current folder where wo do work.
+only step we need to do is , in uniprot go and copy the " sequence of query without header file and paste it in txt file and make it into without new line and make copy" . paste it while script asking for sequence.
+another important thing is that , note in the Blast process and see which chain is similar to our query like - A/B/C/D so before running the script chage start : "A" and end : "A".
+after completion of script running check dope score (highly negative is better model ) and go for validation by using some tools like PROCHECK , PROSA server.
