@@ -8,7 +8,7 @@ import requests
 
 #pdb file download from PDB database
 
-pdb=input("enter your pdb file name in CAPS : ")
+pdb=input("ENTER YOUR TEMPLATE PDB ID IN CAPS : ")
 
 # URL of the file to download
 url = "https://files.rcsb.org/download/"+pdb+".pdb"
@@ -30,7 +30,7 @@ else:
 
 #query alignment file creating for template and query alignment
     
-que_name=input("enter your query ali file name : ")
+que_name=input("MAKE YOUR QUERY ALIGNMENT FILE NAME : ")
 f= open(que_name+".ali","w+")
 sequence=input("""ENTER YOUR QUERY SEQUENCE WITHOUT HEADER FILE: """)
 with open(que_name+".ali","w") as file:
@@ -42,7 +42,7 @@ template=pdb.lower()
 temp=template+".pdb"
 que=que_name+".ali"
 #Homology model building 
-num=int(input("how many models you want to generate : "))
+num=int(input("HOW MANY MODELS YOU WANT TO DO : "))
 
 env = environ()
 aln = alignment(env)
