@@ -1,4 +1,4 @@
-well come to the instructure before doing homology modelling.
+well come to the instruction before doing homology modelling clear about the script running.
 homology modelling is a process which is predict protein unknown structure by using similar proerties having template structure which is already predicted by experimental and insilico methods.
 before using script , first go and do "BLASTP" with your query protein sequence.
 based on the query coverage (>70) , sequence percentage identity (>40) choose template model and note PDB ID .
