@@ -1,3 +1,4 @@
 This scripts will help you for easy way to homology modelling for protein which is not structurally curated.
 give a proper input to get result
 follow the instruction given in the document
+install relevent modules from the script 
